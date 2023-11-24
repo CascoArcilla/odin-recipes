@@ -1,0 +1,39 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.body-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.heading-main {
+  border-bottom: 2px solid black;
+  width: 600px;
+  text-align: center;
+}
+
+.underloand-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+
+.item-list {
+	border: 2px solid black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+}
+
+.item-list:hover {
+  transform: translateX(15px);
+}
