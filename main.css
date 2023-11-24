@@ -12,7 +12,7 @@
 }
 
 .heading-main {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid black;       
 	text-align: center;
 }
 
@@ -30,7 +30,7 @@
 	height: 40px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+  justify-content: center;                                                                                                                                                                 
 	transition: 0.6s;
 }
 
